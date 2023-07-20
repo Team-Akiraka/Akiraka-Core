@@ -3,6 +3,19 @@ pub struct VersionInfo {
     pub version_type: String,
 }
 
+impl VersionInfo {
+    pub fn new(version_name: String, version_type: String) -> VersionInfo {
+        VersionInfo {
+            version_name,
+            version_type
+        }
+    }
+
+    pub fn empty() -> VersionInfo {
+        VersionInfo::new(String::new(), String::new())
+    }
+}
+
 #[cfg(test)]
 mod test {
     use crate::VersionInfo;
