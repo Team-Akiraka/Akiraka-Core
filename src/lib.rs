@@ -7,7 +7,7 @@ impl VersionInfo {
     pub fn new(version_name: String, version_type: String) -> VersionInfo {
         VersionInfo {
             version_name,
-            version_type
+            version_type,
         }
     }
 
