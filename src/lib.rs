@@ -1,3 +1,4 @@
+#[allow(unused_imports)]
 pub struct VersionInfo {
     version_name: String,
     version_type: String,
