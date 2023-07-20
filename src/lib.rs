@@ -1,3 +1,4 @@
+#[derive(Clone)]
 pub struct VersionInfo {
     pub version_name: String,
     pub version_type: String,
