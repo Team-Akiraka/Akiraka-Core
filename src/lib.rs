@@ -1,7 +1,6 @@
-#[allow(unused_imports)]
 pub struct VersionInfo {
-    version_name: String,
-    version_type: String,
+    pub version_name: String,
+    pub version_type: String,
 }
 
 #[cfg(test)]
